@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+html, body {
+  margin:0px;
+  height:100%;
+ 
+}
+#vanta{
+
+}
+
+p{
+  color: aliceblue;
+}
+ /*  customized navbar */
+.navbar-custom{
+    background-color: #000000;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+  height: 60px;
+  
+}
+.navbar .navbar-brand img {
+  height: 65px;
+  padding-left: 20px;
+  
+}
+.navbar{
+  border: black;
+  margin-top: 0px;
+}
+.vanta-canvas{
+  height: 100%;
+  width: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+.container {
+	
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	
+	line-height: 1.5;
+	text-align: center;
+	padding: 0.5rem 0 1rem;
+	color: #ffffff;
+	font-weight: bolder;
+	padding-top: -10px;
+}
+.head2{
+	font-family: "Montserrat", Arial, sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+./*.medium-widget__wrapper{
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+
+}*/
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+
+}
+/*.medium-widget-article__item{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	/*flex: 1 0 24rem;
+		margin: 1rem;
+		line-height: 2rem;
+
+}*/
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+.lasttext{
+	font-family: "Montserrat", Arial, sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 2rem;
+
+}
+.medium-widget-article__column{
+box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+transition: transform 400ms ease-out;
+}
+
+.medium-widget-article__column:hover {
+	transform: scale(1.15);
+	transition: transform 400ms ease-out;
+}
+/*.medium-widget-article__image{
+
+	display: block;
+	width: 100%;
+	height: auto;
+	
+
+		object-fit: cover;
+
+	
+
+}*/
+.medium-widget-article__title:link{
+	text-decoration: none;
+	color: white;
+		font-family: "Montserrat", Arial, sans-serif;
+		line-height: 2rem;
+}
+
+.medium-widget-article__title:visited{
+	color: white;
+		font-family: "Montserrat", Arial, sans-serif;
+		line-height: 2rem;
+
+
+}
+.medium-widget-article__title{
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.heading{
+	color: white;
+			font-family: "Montserrat", Arial, sans-serif;
+
+
+}
+	
+canvas.vanta-canvas{
+	height: 100% !important;
+}
+
+.eapps-instagram-feed-title{
+	color: white;
+		font-family: "Montserrat", Arial, sans-serif;
+		line-height: 2rem;
+}
+/* trailll*/
+
+.medium-widget .medium-widget__wrapper .medium-widget-article__row .medium-widget-article__item .medium-widget-article__column{
+
+position: relative;
+height: 100%
+width:100%;
+overflow: hidden;
+
+}
+
+.medium-widget .medium-widget__wrapper{
+	position: relative;
+	height: auto;
+	width: 90%;
+	margin: auto;
+	padding: 45px 0;
+}
+
+
+
+
+ 
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+	/*.medium-widget__wrapper{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}*/
+
+}
+
+
+
+
+
