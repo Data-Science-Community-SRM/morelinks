@@ -14,6 +14,22 @@ body {
   background-color: #232323;
 }
 
+.logo {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.navbar-text {
+  color: white !important;
+  font-size: 1rem;
+  margin-left: 5px;
+  margin-top: 0px;
+  font-variant: small-caps;
+}
+
 .heading {
   font-size: 4rem;
   margin-top: 0;
@@ -32,7 +48,6 @@ canvas.vanta-canvas {
 .medium-widget-article__item:hover {
   transform: scale(1.05);
 }
-
 .medium-widget-article__content,
 .medium-widget-article__content a {
   text-decoration: none;
@@ -49,22 +64,3 @@ canvas.vanta-canvas {
 .eapps-instagram-feed-title {
   display: none !important;
 }
-
-.logo{
-  display:inline-block;
-  height:80px;
-  width:80px;
-  margin-left:0;
-  margin-top: 0;
-}
-
-.navbar-text{
-  color: white !important;
-  font-size: 1rem;
-  margin-left:5px;
-  margin-top:0px;
-  font-variant: small-caps;
-
-}
-
-
