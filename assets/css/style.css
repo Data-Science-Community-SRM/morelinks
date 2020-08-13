@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: aliceblue !important;
+  background-color: #232323;
+}
+
+.heading {
+  font-size: 4rem;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+/* BG */
+canvas.vanta-canvas {
+  height: 100% !important;
+}
+
+/* Medium CSS */
+.medium-widget-article__item {
+  margin: auto;
+}
+.medium-widget-article__item:hover {
+  transform: scale(1.05);
+}
+
+.medium-widget-article__content,
+.medium-widget-article__content a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-variant: small-caps;
+}
+.medium-widget-article__content a:hover {
+  color: #232323;
+  text-shadow: 2px 2px 15px #511883;
+}
+
+/* Insta CSS */
+.eapps-instagram-feed-title {
+  display: none !important;
+}
+
+.logo{
+  display:inline-block;
+  height:80px;
+  width:80px;
+  margin-left:0;
+  margin-top: 0;
+}
+
+.navbar-text{
+  color: white !important;
+  font-size: 1rem;
+  margin-left:5px;
+  margin-top:0px;
+  font-variant: small-caps;
+
+}
+
+
