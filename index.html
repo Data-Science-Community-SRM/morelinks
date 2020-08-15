@@ -1,134 +1,211 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>MoreLinks</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <title>MoreLinks</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/8be42cff9c.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Font Awesome CDN -->
-  <script src="https://kit.fontawesome.com/8be42cff9c.js" crossorigin="anonymous"></script>
+    <!-- Local CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-  <!-- Local CSS-->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.min.js"></script>
+  <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.min.js"></script>
-<script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+  <body>
+    <div id="vanta" class="pb-5">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="https://dscommunity.in/">
+          <img class="logo" src="assets/images/darkLogo.png" />
+          <span class="navbar-text d-md-inline">
+            DATA SCIENCE COMMUNITY SRM
+          </span>
+        </a>
+      </nav>
 
-<body>
-  <div id="vanta" class="pb-5">
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <a class="navbar-brand" href="https://dscommunity.in/">
-        <img class="logo" src="assets/images/darkLogo.png" />
-        <span class="navbar-text d-md-inline">
-          DATA SCIENCE COMMUNITY SRM
-        </span>
-      </a>
-    </nav>
-
-    <div class="col-12 mx-auto mt-5 text-center">
-      <div class="col-12">
-        <h1 class="heading">
-          <i class="fab fa-medium-m"></i>
-        </h1>
+      <div class="col-12 mx-auto mt-5 text-center">
+        <div class="col-12">
+          <h1 class="heading">
+            <i class="fab fa-medium-m"></i>
+          </h1>
+        </div>
+        <div>
+          <h4>Read and Explore</h4>
+        </div>
+        <div class="col-12 col-lg-10 mx-auto">
+          <div id="medium-widget"></div>
+        </div>
       </div>
-      <div>
-        <h4>Read and Explore</h4>
+
+      <div class="col-12 mx-auto text-center">
+        <div class="col-12">
+          <h1 class="heading">
+            <i class="fab fa-instagram"></i>
+          </h1>
+        </div>
+        <div>
+          <h4>Our Lively Feed</h4>
+        </div>
+        <div class="col-12 col-lg-10 mx-auto">
+          <div
+            class="elfsight-app-7b036688-66db-472b-92e3-5d8efe0f3f2c instaWidget"
+          ></div>
+        </div>
       </div>
-      <div class="col-12 col-lg-10 mx-auto">
-        <div id="medium-widget"></div>
+
+      <h1 class="heading text-center">
+        <i class="fab fa-twitter"></i>
+      </h1>
+
+      <div class="row">
+        <div class="col-12 col-lg-6 mx-auto text-center">
+          <h4 class="mt-5">Explore our twitter feed...</h4>
+          <p>#Check us out!</p>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+          <a
+            class="twitter-timeline mx-auto"
+            data-width="500"
+            data-height="400"
+            data-dnt="true"
+            href="https://twitter.com/dscommunitysrm?ref_src=twsrc%5Etfw"
+            >Tweets by dscommunitysrm</a
+          >
+        </div>
       </div>
     </div>
 
-    <div class="col-12 mx-auto text-center">
-      <div class="col-12">
-        <h1 class="heading">
-          <i class="fab fa-instagram"></i>
-        </h1>
-      </div>
-      <div>
-        <h4>Our Lively Feed</h4>
-      </div>
-      <div class="col-12 col-lg-10 mx-auto">
-        <div class="elfsight-app-7b036688-66db-472b-92e3-5d8efe0f3f2c instaWidget"></div>
-      </div>
-    </div>
+    <!--footer-->
 
-    <h1 class="heading text-center">
-      <i class="fab fa-twitter"></i>
-    </h1>
+    <footer class="pagefooter">
+      <!-- Footer Elements -->
+      <div class="container-fluid" style="background-color: #0e1424;">
+        <!-- Grid row-->
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6  mx-auto">
+            <div class="row row-cols-3">
+               
+          <div class="col-md-4 my-auto mx-auto col-sm-4 col-xs-4  ">
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i
+                class="fab fa-medium-m fa-lg fa-2x ">
 
-    <div class="row">
-      <div class="col-12 col-lg-6 mx-auto text-center">
-        <h4 class="mt-5">Explore our twitter feed...</h4>
-        <p>#Check us out!</p>
+              </i>
+            </a>
+             <!-- Twitter -->
+             <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg fa-2x "> </i>
+            </a>
+          </div>
+              <!--logo-->
+              <div class="col-md-4 col-sm-4 col-xs-4 mx-auto" style="text-align: center;">
+                <img
+                  src="assets/images/darkLogo.png"
+                  style="width: 120px;"
+                  class="mx-auto d-block"
+                />
+              </div>
+             
+          <div class=" col-md-4  my-auto mx-auto  col-sm-4 col-xs-4 ">
+            <!--Linkedin -->
+            
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg fa-2x "> </i>
+            </a>
+          </div>
+            </div>
+        
+        <!--last line-->
+        <div class="col-12 text-center"><p style="font-weight: 400; color: rgb(105, 105, 105);">Made with <span role="img" aria-label="jsx-a11y/hot-beverage">☕</span> by your colleagues at the <b>Data Science Community</b>.</p></div>
+        
+        </div>
+     
       </div>
-      <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-        <a class="twitter-timeline mx-auto" data-width="500" data-height="400" data-dnt="true"
-          href="https://twitter.com/dscommunitysrm?ref_src=twsrc%5Etfw">Tweets by dscommunitysrm</a>
+     
+        <!-- Grid row-->
       </div>
-    </div>
-  </div>
+    </footer>
+    <!--footer ends-->
 
-  <!-- BG Plugin -->
-  <script>
-    VANTA.WAVES({
-      el: "#vanta",
-      mouseControls: true,
-      touchControls: true,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      color: 0x4b287f,
-    });
-  </script>
-
-  <!-- Medium Plugin -->
-  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-  <script>
-    let postsper;
-    window.innerWidth >= 768 && window.innerWidth < 992 ?
-      (postsper = 3) :
-      window.innerWidth >= 992 ?
-      (postsper = 4) :
-      (postsper = 2);
-
-    function mediumWidget() {
-      MediumWidget.Init({
-        renderTo: "#medium-widget",
-        params: {
-          resource: "https://medium.com/data-science-community-srm",
-          postsPerLine: postsper,
-          limit: 8,
-          picture: "big",
-          fields: [],
-          ratio: "square",
-        },
+    <!-- BG Plugin -->
+    <script>
+      VANTA.WAVES({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x4b287f,
       });
-    }
-    window.onresize = mediumWidget();
-    mediumWidget();
-  </script>
+    </script>
 
-  <!-- Insta Plugin -->
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <script>
-    const hide = setInterval(() => {
-      const instaFree = document.querySelector(".instaWidget > a");
-      instaFree.style.display = "none";
-      if (instaFree) clearInterval(hide);
-    }, 1000);
-  </script>
+    <!-- Medium Plugin -->
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>
+      let postsper;
+      window.innerWidth >= 768 && window.innerWidth < 992
+        ? (postsper = 3)
+        : window.innerWidth >= 992
+        ? (postsper = 4)
+        : (postsper = 2);
 
-  <!-- Twitter Plugin -->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</body>
+      function mediumWidget() {
+        MediumWidget.Init({
+          renderTo: "#medium-widget",
+          params: {
+            resource: "https://medium.com/data-science-community-srm",
+            postsPerLine: postsper,
+            limit: 8,
+            picture: "big",
+            fields: [],
+            ratio: "square",
+          },
+        });
+      }
+      window.onresize = mediumWidget();
+      mediumWidget();
+    </script>
 
+    <!-- Insta Plugin -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script>
+      const hide = setInterval(() => {
+        const instaFree = document.querySelector(".instaWidget > a");
+        instaFree.style.display = "none";
+        if (instaFree) clearInterval(hide);
+      }, 1000);
+    </script>
+
+    <!-- Twitter Plugin -->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+  </body>
 </html>

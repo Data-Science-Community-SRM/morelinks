@@ -64,3 +64,33 @@ canvas.vanta-canvas {
 .eapps-instagram-feed-title {
   display: none !important;
 }
+ .fb-ic,.tw-ic i{
+ 	float: right;
+ 	color: white;
+ 	display: inline;
+ 	padding: 20px;
+
+ }
+
+ .li-ic,.ins-ic i{
+color: white;
+float: left;
+display: inline;
+padding: 20px;
+ 	
+ }
+ 
+ /*.left,.right{
+ 	display: flex;
+            justify-content: center;
+            text-align: center;
+ }*/
+
+ /*.fb-ic i{
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ }
+ .li-ic i{
+ 	padding-left: 10px;
+ 	padding-right: 30px;
+ }*/
