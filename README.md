@@ -4,7 +4,7 @@
 </a>
 	<h2 align="center"> More-Links </h2>
 	<h4 align="center"> This project is a 'link -page' which displays all the post,feeds and articles of our social media handles at a single place.
-   API calls for our social media pages like medium , instagram and twitter updates every hour . 
+   API calls for our social media pages like Medium,Instagram and Twitter updates every hour . 
  <h4>
 </p>
 <!--
